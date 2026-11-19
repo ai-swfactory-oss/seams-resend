@@ -2,7 +2,7 @@
 
 seams-resend is the seam for the Resend email API: a typed SDK the rest of the code sends email through, with a fake under `./testing` for tests.
 
-The code arrives by migration from the private monorepo `ai-swfactory/seams`; until then this repository holds only the guarded skeleton.
+This repository holds only the guarded skeleton so far: `createResendSeam()` returns a seam whose `outbox()` holds no email, and `./testing` holds a fake of it.
 
 ## Packages
 
